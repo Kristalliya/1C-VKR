@@ -84,7 +84,7 @@
 	</dataSet>
 	<calculatedField>
 		<dataPath>Результат</dataPath>
-		<expression>ВЫБОР КОГДА Возраст &gt;90 ТОГДА 0 КОГДА  (Месяц(ДатаОкончания()) - Месяц( СотрудникДатаРождения) &gt; 0 ИЛИ (Месяц(ДатаОкончания()) - Месяц( СотрудникДатаРождения) = 0 И День(ДатаОкончания())-День( СотрудникДатаРождения) &gt;= 0))ТОГДА Возраст ИНАЧЕ Возраст-1 КОНЕЦ
+		<expression>ВЫБОР КОГДА Возраст &gt;90 ТОГДА 0 КОГДА  (Месяц(ТекущаяДата()) - Месяц( СотрудникДатаРождения) &gt; 0 ИЛИ (Месяц(ТекущаяДата()) - Месяц( СотрудникДатаРождения) = 0 И День(ТекущаяДата())-День( СотрудникДатаРождения) &gt;= 0))ТОГДА Возраст ИНАЧЕ Возраст-1 КОНЕЦ
 </expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
@@ -101,6 +101,10 @@
 			</v8:NumberQualifiers>
 		</valueType>
 	</calculatedField>
+	<totalField>
+		<dataPath>Возраст</dataPath>
+		<expression>Среднее(Возраст)</expression>
+	</totalField>
 	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
@@ -142,6 +146,7 @@
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
 		<inputParameters>
 			<dcscor:item>
 				<dcscor:parameter>ФорматРедактирования</dcscor:parameter>
@@ -211,6 +216,10 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Результат</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Возраст</dcsset:field>
 				</dcsset:item>
 				<dcsset:userSettingID>dab1b73c-7a11-432d-93c8-ac35a602d5a1</dcsset:userSettingID>
 			</dcsset:selection>

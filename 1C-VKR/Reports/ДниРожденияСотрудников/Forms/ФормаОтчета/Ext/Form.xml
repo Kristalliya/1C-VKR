@@ -60,6 +60,9 @@
 			</ButtonGroup>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Override">Расш1_ПриСозданииНаСервереВместо</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаПериод" id="38">
 			<Title>
