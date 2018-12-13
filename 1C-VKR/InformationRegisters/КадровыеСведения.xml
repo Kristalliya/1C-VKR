@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="89fa35ce-f200-4bf2-bef1-5c1859513ec1">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КадровыеСведения" category="Record">
+				<xr:TypeId>1e4add9b-b83f-4885-b57f-9e34ae6b20a8</xr:TypeId>
+				<xr:ValueId>5cf81383-3e66-461b-8120-a8514aa81cc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КадровыеСведения" category="Manager">
+				<xr:TypeId>57123cdf-28f7-4667-aa13-67f95880d692</xr:TypeId>
+				<xr:ValueId>c59f82de-7a5d-4290-a390-347849bda14a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КадровыеСведения" category="Selection">
+				<xr:TypeId>ec70c6f0-2543-4d3b-8f49-0e48b0c19686</xr:TypeId>
+				<xr:ValueId>dbdd02bc-1d57-4ad1-a4da-1a814af7f2ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КадровыеСведения" category="List">
+				<xr:TypeId>74a48581-8a0e-40ff-84f8-0f6c87f5a3e4</xr:TypeId>
+				<xr:ValueId>98d1b737-2769-4e7a-b50c-e98f43397e6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КадровыеСведения" category="RecordSet">
+				<xr:TypeId>5dd81eca-e18d-49f5-814d-54e65c6cf8da</xr:TypeId>
+				<xr:ValueId>f8cb6316-86e6-44f1-a8c1-ea1a799db93a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КадровыеСведения" category="RecordKey">
+				<xr:TypeId>0d9a8201-4339-4a06-bae4-b999b2d98f42</xr:TypeId>
+				<xr:ValueId>37bc6ee8-1b7c-4acb-ade1-5ff3ac33c023</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КадровыеСведения" category="RecordManager">
+				<xr:TypeId>77dd09c4-ac41-4a6d-9732-81d163c291be</xr:TypeId>
+				<xr:ValueId>9d1b8871-a2ad-4e53-996a-64992cfcdfd2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КадровыеСведения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="58933ac3-b111-4054-a744-03b663e67577">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="96448d4b-de30-41b4-b01a-cdd092d7419a">
+				<Properties>
+					<Name>Должность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="90a39798-2dc8-4f1d-a139-e479b02b5c75">
+				<Properties>
+					<Name>ТабНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4cf3c4f7-4652-4ffb-8e2c-35844a1571bd">
+				<Properties>
+					<Name>ДатаПриема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ab176add-445c-47da-b845-337a8fabad85">
+				<Properties>
+					<Name>ДатаУвольнения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="1d18a461-dcd3-47f8-9759-288b49a345ed">
+				<Properties>
+					<Name>ВидСтавки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыСтавок</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ebf83557-e740-4996-855d-7168114895a4">
+				<Properties>
+					<Name>Разряд</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТарифныеСетки</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="2dfa0cb7-d9d9-4ac4-94d3-a2f2270e7d67">
+				<Properties>
+					<Name>Ставка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="65779830-6276-4e44-93b4-0c089f9f6ea0">
+				<Properties>
+					<Name>КлассныйЧин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассныеЧины</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8505a0eb-2c5b-42cb-b731-fa9c3de33423">
+				<Properties>
+					<Name>КоличествоСтавок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>7</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="a0333a34-5f6c-40e9-910b-59dadcb077f1">
+				<Properties>
+					<Name>Табель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Табели</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="89265462-b10e-4611-86f2-85651b378b19">
+				<Properties>
+					<Name>ВидМестаРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыМестРаботы</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8881248a-24b1-4ebb-b665-e2e93fbcca2d">
+				<Properties>
+					<Name>ОсобыеУсловия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОсобыеУсловия</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="1595899c-eac4-47e5-b561-3e62179e27b5">
+				<Properties>
+					<Name>Вредность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Список12</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="0eebacca-eae1-4a45-858e-de405c33c286">
+				<Properties>
+					<Name>Условия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УсловияТруда</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b93c8420-ac63-42ed-98ac-1b7567a57856">
+				<Properties>
+					<Name>РК</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4b3af69c-ac68-4abc-87a3-b77ad96f69a1">
+				<Properties>
+					<Name>СевНадбавка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>6</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="36e92470-1328-4846-82a7-08e16ebc5b07">
+				<Properties>
+					<Name>ТерриториальныеУсловия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТерриториальныеУсловия</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3be97585-9a06-467f-98c7-598c494a4404">
+				<Properties>
+					<Name>СтажОснование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОснованияИсчисляемогоСтажа</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="486a715c-581c-4616-861a-bbac2defb4a2">
+				<Properties>
+					<Name>ВыслугаОснование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОснованияВыслугиЛет</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e4e55798-8e09-43b6-8d50-c4d76bb921d0">
+				<Properties>
+					<Name>Увольнение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.Увольнение</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="5b2ce1b1-6e1d-48a2-b4c1-bedfecceafef">
+				<Properties>
+					<Name>Договор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d54f76dd-ffbf-4384-a02c-3525011647a5">
+				<Properties>
+					<Name>Приказ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="095a09ee-e805-4ef1-8ebd-95fbc5289dbf">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="533023e6-1720-44ee-9233-ab72522107cf">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d3559ffc-7a75-49e8-b7bb-9f867fe6a5ef">
+				<Properties>
+					<Name>Прием</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

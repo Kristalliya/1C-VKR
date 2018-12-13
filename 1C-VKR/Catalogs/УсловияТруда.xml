@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="79ae0833-7708-46f2-84eb-ab50971925ca">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УсловияТруда" category="Object">
+				<xr:TypeId>b9e508f7-9a0c-4681-8f6e-e0fd1eb5849a</xr:TypeId>
+				<xr:ValueId>3d18b727-f8ee-483a-abcc-b93b7c5c1418</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УсловияТруда" category="Ref">
+				<xr:TypeId>89d52304-11da-4e2e-991f-5ea7b51a5df8</xr:TypeId>
+				<xr:ValueId>f53ca74c-80c4-41bb-b0b4-85186e7d5ff9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УсловияТруда" category="Selection">
+				<xr:TypeId>ec115ad8-6b5d-48bb-bfce-846b5bdc55f3</xr:TypeId>
+				<xr:ValueId>75945cb8-3a69-4d54-ad83-ec0c6a39a4ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УсловияТруда" category="List">
+				<xr:TypeId>ff5fc896-3dd6-4e8e-bcb3-5605998388ed</xr:TypeId>
+				<xr:ValueId>c967ca99-ca23-4ade-96c0-b3289af34e57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УсловияТруда" category="Manager">
+				<xr:TypeId>7f418829-a1ce-40ca-9dcf-d7391177a110</xr:TypeId>
+				<xr:ValueId>77f57c33-954a-4a02-9b1c-0d7b9c939241</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УсловияТруда</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

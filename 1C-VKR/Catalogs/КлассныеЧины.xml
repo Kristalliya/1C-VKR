@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="982bcc03-1d67-4649-8af2-6c59eda5bf9d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассныеЧины" category="Object">
+				<xr:TypeId>b32413f8-c825-474f-bd4d-dbb87036a2ff</xr:TypeId>
+				<xr:ValueId>61c4932c-7309-4df8-aab4-4ed7e456bf2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассныеЧины" category="Ref">
+				<xr:TypeId>80007917-9bd7-42f6-911f-a5c24c246fab</xr:TypeId>
+				<xr:ValueId>87be2cc2-4760-40de-89cc-23cade14331c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассныеЧины" category="Selection">
+				<xr:TypeId>be848b9a-915e-40e3-81dc-f166a751b324</xr:TypeId>
+				<xr:ValueId>fc90543d-2a6c-4684-9d6b-f403d876c6d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассныеЧины" category="List">
+				<xr:TypeId>b8b69e05-04c8-476e-b313-5e2738e57ab0</xr:TypeId>
+				<xr:ValueId>729e8de7-0d6a-44d6-b4a6-6f54742eb062</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассныеЧины" category="Manager">
+				<xr:TypeId>b69a8d1f-362c-4223-a808-afc3d2701a2f</xr:TypeId>
+				<xr:ValueId>dbc269a0-da39-49b1-8255-2dfe4eed0938</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КлассныеЧины</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

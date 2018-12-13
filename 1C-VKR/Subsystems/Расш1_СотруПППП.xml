@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Subsystem uuid="d652d5e4-d1b6-4250-8627-a33c3726235c">
+		<Properties>
+			<Name>Расш1_СотруПППП</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расш1 сотру ПППП</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение с сотрудник</v8:content>
+				</v8:item>
+			</Explanation>
+			<Picture>
+				<xr:Ref>CommonPicture.Расш1_ОбщаяКартинка1</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">a58fe686-3807-434f-a64a-1167a621f7fb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">7464027d-499b-4e81-b7ba-d0e981a3b507</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">845d15bb-eea3-4d52-8447-bb2edf0360cd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ca8f4d3f-96d5-4196-9b23-4eb172fae6af</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e1a59559-5287-4ba6-82fc-675679c9cfbd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Расш1_ОбщаяКартинка1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">b9d8f8f9-11ab-4305-b51f-53d53049002e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Администратор</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

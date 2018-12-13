@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="d3f86ea9-2831-4262-a10d-5cd3ceaa614d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТарифныеСетки" category="Object">
+				<xr:TypeId>9146efef-8e25-4991-a58a-99ed3ffe4c2b</xr:TypeId>
+				<xr:ValueId>644eb708-9710-4fb9-8c07-77133a5d4b28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТарифныеСетки" category="Ref">
+				<xr:TypeId>98165ca9-06d3-4e78-8380-423f91aff50e</xr:TypeId>
+				<xr:ValueId>744901f7-ac22-410c-a92b-8dc17f4eb52f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТарифныеСетки" category="Selection">
+				<xr:TypeId>fee4b483-361b-44df-b81c-39bb842b2092</xr:TypeId>
+				<xr:ValueId>9abbd067-f707-4642-b3c5-9c8cadfcfaf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТарифныеСетки" category="List">
+				<xr:TypeId>ddb9ab65-841e-478d-a0a1-b4e697b85358</xr:TypeId>
+				<xr:ValueId>fe9a14ea-911a-4378-88a1-d97f0dad9401</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТарифныеСетки" category="Manager">
+				<xr:TypeId>fe7ea48c-e24a-4113-a3ef-cd01e5210c0d</xr:TypeId>
+				<xr:ValueId>a84e703b-6a6b-495d-b5a9-8c4ef4ecf5a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТарифныеСетки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

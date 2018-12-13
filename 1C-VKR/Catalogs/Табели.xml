@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="68b0ec2e-a096-4ccc-90ca-7d9760d7edd4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Табели" category="Object">
+				<xr:TypeId>8ddca83f-52cc-4a5f-bd08-8d12db06fe63</xr:TypeId>
+				<xr:ValueId>53a86cfd-38e1-4acc-9181-72d1d345ad2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Табели" category="Ref">
+				<xr:TypeId>abdd2f95-1bb4-411e-bdeb-0cc7a4ef5f32</xr:TypeId>
+				<xr:ValueId>c67c2d19-aa85-43ac-9c1b-2e47fb6f896a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Табели" category="Selection">
+				<xr:TypeId>ca248543-126c-4066-acac-b81788713836</xr:TypeId>
+				<xr:ValueId>d9320803-6424-4b32-80af-bc06ec15bc73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Табели" category="List">
+				<xr:TypeId>44a21c03-cbfd-4281-a02e-018ef88da612</xr:TypeId>
+				<xr:ValueId>6c4698e8-4560-45d3-82b0-8ed79918de01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Табели" category="Manager">
+				<xr:TypeId>8676ed9f-0fea-4a9d-83db-e7c82943addc</xr:TypeId>
+				<xr:ValueId>655dbe06-eb4a-442b-8d1d-28a594b0801c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Табели</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

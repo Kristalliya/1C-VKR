@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="08c08bb2-09e9-4c6c-be40-ae5366da84c3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Увольнение" category="Object">
+				<xr:TypeId>bb7000ef-0cec-47b6-967d-e01880ffcb22</xr:TypeId>
+				<xr:ValueId>9b67b789-15f4-49c7-9fbf-5110a7772c97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Увольнение" category="Ref">
+				<xr:TypeId>54001085-a7e4-4f5b-802d-ab7745dab5f5</xr:TypeId>
+				<xr:ValueId>7c2e366f-23de-4e2b-ba42-a7366564e5a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Увольнение" category="Selection">
+				<xr:TypeId>99f92230-13de-423d-b478-697464b993fb</xr:TypeId>
+				<xr:ValueId>701495ed-8b2d-48fe-a9a6-b06a3b123447</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Увольнение" category="List">
+				<xr:TypeId>9fa03e19-7423-4c1a-9e33-8ddf10974871</xr:TypeId>
+				<xr:ValueId>059d0e68-e9e5-4472-85fa-0f1afdd7e4a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Увольнение" category="Manager">
+				<xr:TypeId>34f3cf53-6b7f-4e9f-b8c7-49ad1e9e1083</xr:TypeId>
+				<xr:ValueId>a53ab1a8-9b50-4dda-9727-0b0885897e4e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Увольнение</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

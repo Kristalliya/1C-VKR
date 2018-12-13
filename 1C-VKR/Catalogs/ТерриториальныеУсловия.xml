@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="4c33a9c8-74f5-472e-997c-0900b4032da2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТерриториальныеУсловия" category="Object">
+				<xr:TypeId>1075607a-8bbc-48b6-90c4-138639681ab0</xr:TypeId>
+				<xr:ValueId>c2d7a820-8b5d-4ceb-918d-1ba262aad635</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТерриториальныеУсловия" category="Ref">
+				<xr:TypeId>a03b1ba5-8932-4716-a3e2-56242754a7be</xr:TypeId>
+				<xr:ValueId>2088536a-7f6f-4c5c-8040-b98d41d174b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТерриториальныеУсловия" category="Selection">
+				<xr:TypeId>d14d55d1-5a14-413c-87e9-a8534f56cb18</xr:TypeId>
+				<xr:ValueId>6518c8a4-4f5d-4d1b-a50b-3ff7d7ded5db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТерриториальныеУсловия" category="List">
+				<xr:TypeId>12b2f63f-48af-488d-a205-c3c3a9bf725a</xr:TypeId>
+				<xr:ValueId>c5b3ab0a-bd57-4199-b0f8-f8d836a44561</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТерриториальныеУсловия" category="Manager">
+				<xr:TypeId>249e38b0-9b9c-4585-ad3e-cef7851daebf</xr:TypeId>
+				<xr:ValueId>892d977e-81ad-4298-8257-0b0520f7fe68</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТерриториальныеУсловия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
