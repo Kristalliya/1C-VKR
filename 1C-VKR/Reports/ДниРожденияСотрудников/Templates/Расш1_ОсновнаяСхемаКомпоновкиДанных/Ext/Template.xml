@@ -66,6 +66,26 @@
 			<dataPath>Прием</dataPath>
 			<field>Прием</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОкончаниеД</dataPath>
+			<field>ОкончаниеД</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Окончание Д</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОкончаниеМ</dataPath>
+			<field>ОкончаниеМ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Окончание М</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	КадровыеСведенияСрезПоследних.Организация,
@@ -75,6 +95,9 @@
 	КадровыеСведенияСрезПоследних.Сотрудник,
 	КадровыеСведенияСрезПоследних.Сотрудник.ДатаРождения,
 	РАЗНОСТЬДАТ(КадровыеСведенияСрезПоследних.Сотрудник.ДатаРождения, &amp;Период, ГОД) КАК Возраст,
+	МЕСЯЦ(&amp;ДатаОкончания) КАК ОкончаниеМ,
+	ДЕНЬ(&amp;ДатаОкончания) КАК ОкончаниеД,
+	
 	ГОД(КадровыеСведенияСрезПоследних.Сотрудник.ДатаРождения) КАК ГодРождения
 ИЗ
 	РегистрСведений.КадровыеСведения.СрезПоследних(&amp;ДатаОкончания, ) КАК КадровыеСведенияСрезПоследних
@@ -90,6 +113,25 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Результат</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Результат1</dataPath>
+		<expression>ВЫБОР КОГДА Возраст &gt;90 ТОГДА 0 КОГДА  (ОкончаниеМ - Месяц( СотрудникДатаРождения) &gt; 0 ИЛИ (ОкончаниеМ - Месяц( СотрудникДатаРождения) = 0 И ОкончаниеД-День( СотрудникДатаРождения) &gt;= 0))ТОГДА Возраст ИНАЧЕ Возраст-1 КОНЕЦ
+</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Результат1</v8:content>
 			</v8:item>
 		</title>
 		<valueType>

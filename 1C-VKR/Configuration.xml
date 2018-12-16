@@ -62,6 +62,12 @@
 			<Subsystem>Расш1_СотруПППП</Subsystem>
 			<Subsystem>В_РаботаСПерсоналом</Subsystem>
 			<CommonPicture>Расш1_ОбщаяКартинка1</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
+			<CommonPicture>Сумма</CommonPicture>
+			<CommonPicture>СохранитьВариантОтчета</CommonPicture>
+			<CommonPicture>ВидСравнения</CommonPicture>
+			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
 			<Role>Администратор</Role>
 			<FunctionalOption>МногофирменныйУчет</FunctionalOption>
 			<Constant>МногофирменныйУчет</Constant>
@@ -78,6 +84,7 @@
 			<Catalog>Список12</Catalog>
 			<Catalog>ТерриториальныеУсловия</Catalog>
 			<Catalog>ОснованияВыслугиЛет</Catalog>
+			<Catalog>ВариантыОтчетов</Catalog>
 			<Document>Увольнение</Document>
 			<Enum>ВидыСтавок</Enum>
 			<Enum>ВидыМестРаботы</Enum>
